@@ -17,5 +17,8 @@ Cal is a ruby calculator with easy to use with help in repeated operation eg: +-
   - Ruby 2.0 or later
   - However if any problem please try 
   - Ruby 2.6
+# Screen shot:
+
+![](https://user-images.githubusercontent.com/3953832/84552031-5225d500-acc4-11ea-8182-a926f669a094.png)
 
 Prateep Kul:
