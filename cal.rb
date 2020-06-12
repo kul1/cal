@@ -54,9 +54,8 @@ if cal_input
     end
     case 
     when input.downcase == 'q'  
-      puts "Bye q"
+      puts "Bye"
       break
-      binding.pry
     when (input.to_i != 0) || (operator == '/' || '*')
       begin
         first_result = eval(first_result.to_s + next_input)
@@ -77,6 +76,5 @@ if cal_input
         puts operator
     end
   end
-    puts "quit"
 end
 
