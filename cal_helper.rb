@@ -5,15 +5,17 @@ module CalHelper
    # Then return as default operator
    permit_operator = "+-*/"
    regex = /[#{permit_operator.gsub(/./){|char| "\\#{char}"}}]/
-
-   ax = x.split(',')
-   ax1 = ax[0].chr
-   if ax1 =~ regex
-     return ax1
+   unless x.empty?
+     ax = x.split(',')
+     ax1 = ax[0].chr
+       if ax1 =~ regex
+         return ax1
+       else
+         return ""
+       end
    else
      return ""
    end
 
  end     
-
 end
